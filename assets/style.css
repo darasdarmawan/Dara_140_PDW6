@@ -1,0 +1,48 @@
+/* Font lucu */
+body {
+  font-family: 'Fredoka', sans-serif;
+  background-image: url(https://i.pinimg.com/736x/cd/b6/f9/cdb6f9fd8ab06f38dd948e432f923b86.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px;
+}
+
+/* Judul utama pakai Pacifico */
+h1 {
+  font-family: 'Pacifico', cursive;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: rgb(220, 59, 134);
+  border: 3px solid #ff5c8d;
+  padding: 20px 30px;
+  border-radius: 20px;
+}
+
+/* Subjudul tetap cantik */
+h2 {
+  font-family: 'Fredoka', sans-serif;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 2px solid #ff5c8d;
+  padding: 15px 25px;
+  border-radius: 15px;
+}
+
+img {
+  width: 300px;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(187, 179, 235, 0.3);
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+video, audio {
+  margin: 20px auto;
+  display: block;
+}
